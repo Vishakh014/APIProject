@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AC1BD632C7865010032F230 /* EncodingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1BD622C7865010032F230 /* EncodingData.swift */; };
+		0AD98FB92C7DE3FE00DF0049 /* ApiSecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD98FB82C7DE3FE00DF0049 /* ApiSecret.swift */; };
 		0AEE24EE2C773BAE00F68156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE24ED2C773BAE00F68156 /* AppDelegate.swift */; };
 		0AEE24F02C773BAE00F68156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE24EF2C773BAE00F68156 /* SceneDelegate.swift */; };
 		0AEE24F22C773BAE00F68156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE24F12C773BAE00F68156 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0AC1BD622C7865010032F230 /* EncodingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingData.swift; sourceTree = "<group>"; };
+		0AD98FB82C7DE3FE00DF0049 /* ApiSecret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ApiSecret.swift; path = ../../../../Downloads/ApiSecret.swift; sourceTree = "<group>"; };
 		0AEE24EA2C773BAE00F68156 /* APIaryJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIaryJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEE24ED2C773BAE00F68156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AEE24EF2C773BAE00F68156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				0AEE25012C773BE300F68156 /* JsonManager.swift */,
 				0AEE25032C77412500F68156 /* DataModel.swift */,
 				0AC1BD622C7865010032F230 /* EncodingData.swift */,
+				0AD98FB82C7DE3FE00DF0049 /* ApiSecret.swift */,
 			);
 			path = APIaryJson;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AEE25042C77412500F68156 /* DataModel.swift in Sources */,
+				0AD98FB92C7DE3FE00DF0049 /* ApiSecret.swift in Sources */,
 				0AEE24F22C773BAE00F68156 /* ViewController.swift in Sources */,
 				0AEE25022C773BE300F68156 /* JsonManager.swift in Sources */,
 				0AEE24EE2C773BAE00F68156 /* AppDelegate.swift in Sources */,
