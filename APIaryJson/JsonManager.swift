@@ -59,34 +59,9 @@ class JsonManager{
             print(error)
             print("Error in decoding.")
         }
-        fetchUserValue()
+        //()
     }
     
-    func fetchUserValue(){
-        let cmpyName = "farefirst"
-        let cmpyLocation = "Mangalore"
-        let companyProfile = CompanyProfile(cmpy_name: cmpyName, location: cmpyLocation)
-        
-        let name = "Vishakh"
-        let id = "978"
-        let profession = "developer"
-        let age = 22
-        let company = [companyProfile]
-        
-        let encodingValue = EncodingData(name: name, id: id, profession: profession, age: age, company: company)
-        
-        encoding(encodingValue)
-        
-    }
     
-    func encoding(_ data : EncodingData){
-        do {
-            let encode = JSONEncoder()
-            let jsonData = try encode.encode(data)
-            print(String(data: jsonData, encoding: .utf8)!)
-        }catch{
-            print(error)
-        }
-    }
 }
 
