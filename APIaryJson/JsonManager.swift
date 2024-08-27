@@ -66,7 +66,7 @@ class JsonManager{
         let cmpyName = "farefirst"
         let cmpyLocation = "Mangalore"
         let companyProfile = CompanyProfile(cmpy_name: cmpyName, location: cmpyLocation)
-        
+        print("hello world")
         let name = "Vishakh"
         let id = "978"
         let profession = "developer"
@@ -85,6 +85,7 @@ class JsonManager{
             let jsonData = try encode.encode(data)
             print(String(data: jsonData, encoding: .utf8)!)
         }catch{
+            print("hello world")
             print(error)
         }
     }
