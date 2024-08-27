@@ -59,9 +59,10 @@ class JsonManager{
             print(error)
             print("Error in decoding.")
         }
-        fetchUserValue()
+        //()
     }
     
+
     func fetchUserValue(){
         let cmpyName = "farefirst"
         let cmpyLocation = "Mangalore"
@@ -89,5 +90,6 @@ class JsonManager{
             print(error)
         }
     }
+
 }
 
