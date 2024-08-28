@@ -20,7 +20,8 @@ class DataModel : Decodable{
     }
     
 }
-
+class hello {
+}
 class Choices: Decodable{
     var choice : String?
     var totalVotes : Int?
